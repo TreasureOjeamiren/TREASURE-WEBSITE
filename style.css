@@ -1,0 +1,430 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 1px 8px #ddd;
+}
+
+#nav-title {
+    font-size: 1.5em;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #00FF00;
+    transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+    color: #FF0000;
+}
+
+/*About me*/
+main {
+    padding: 20px 50px;
+    margin-bottom: 20px;
+}
+
+main h1 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+main .me-section {
+    display: flex;
+    width: 100%;
+}
+
+
+main .me-section .image-box img {
+    width: 50%;
+    height: 100%;
+    border-radius: 70%;
+
+}
+
+main .me-section ul {
+    align-self: center;
+    width: 50%;
+}
+
+main .me-section .image-box {
+    width: 50%;
+    text-align: center;
+}
+
+main .text-box li {
+    margin-bottom: 10px;
+    list-style: none;
+    color: black;
+}
+
+/*section on footer*/
+footer {
+    padding: 20px 50px;
+    box-shadow: 0 1px 8px #ddd;
+    background-color: lightcoral;
+    height: 250px;
+}
+
+footer .contact-section {
+    padding-top: 30px;
+}
+
+footer .text-box {
+    border-left: 3px solid brown;
+    padding-left: 2px;
+    margin-bottom: 10px;
+
+}
+
+footer .nav-text {
+    text-decoration: none;
+    color: #00FF00;
+}
+
+footer #nav-title {
+    margin-bottom: 10px;
+}
+
+footer .contact-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    margin-right: 10px;
+}
+
+/*Design on contact page*/
+
+.image-section {
+    width: 60%;
+    background: url(./treasure.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 750px;
+}
+
+#text-h1 {
+    text-align: end;
+    padding: 45px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+#text-h2 {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+
+form strong {
+    color: white;
+    padding: 30px;
+}
+
+.form-section {
+    width: 60%;
+    height: 100vh;
+    padding: 40px;
+}
+
+
+.page-holder {
+    display: flex;
+    font-weight: bolder;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row input[type="password"],
+.form-row select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid;
+    font-size: 16px;
+    outline: 0;
+    border-radius: 4px;
+}
+
+label {
+    line-height: 2.0rem;
+}
+
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-row .input-box {
+    width: 48%;
+}
+
+textarea {
+    border-radius: 4px;
+    width: 100%;
+    height: 60px;
+    outline: 0;
+}
+
+.button {
+    border-radius: 10px 0px;
+    width: 222px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: rgb(156, 112, 112);
+    font-weight: bolder;
+    font-size: 18px;
+    color: blanchedalmond;
+    border: brown;
+}
+
+input[type="button"]:hover {
+    background: rgb(163, 71, 71);
+    border: 1px solid brown;
+    border-radius: 10px 0px;
+    width: 222px;
+    font-weight: bolder;
+    height: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: blanchedalmond;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+/*design on registration form page*/
+.image-section {
+    width: 60%;
+    background: url(./treasure.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 750px;
+}
+
+#text-h1 {
+    text-align: end;
+    padding: 45px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+#text-h2 {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+
+form strong {
+    color: white;
+    padding: 30px;
+}
+
+.form-section {
+    width: 60%;
+    height: 100vh;
+    padding: 40px;
+}
+
+
+.page-holder {
+    display: flex;
+    font-weight: bolder;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-row input[type="text"],
+.form-row input[type="phone"],
+.form-row input[type="email"],
+.form-row input[type="password"],
+.form-row select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid;
+    font-size: 16px;
+    outline: 10;
+    border-radius: 3px;
+}
+
+label {
+    line-height: 2.0rem;
+}
+
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-row .input-box {
+    width: 48%;
+}
+
+textarea {
+    border-radius: 4px;
+    width: 100%;
+    height: 60px;
+    outline: 0;
+}
+
+.button {
+    border-radius: 10px 0px;
+    width: 222px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: rgb(156, 112, 112);
+    font-weight: bolder;
+    font-size: 18px;
+    color: blanchedalmond;
+    border: brown;
+}
+
+input[type="button"]:hover {
+    background: rgb(163, 71, 71);
+    border: 1px solid brown;
+    border-radius: 10px 0px;
+    width: 222px;
+    font-weight: bolder;
+    height: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: blanchedalmond;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+/*design on login form page*/
+.login-section {
+    padding: 20px 50px;
+    margin-bottom: 30px;
+}
+
+.lg-footer {
+    height: 417px;
+}
+
+/*Responsiveness*/
+@media (max-width: 375px) {
+    header {
+        flex-direction: column;
+    }
+
+    header nav {
+        padding-top: 10px;
+    }
+
+    .me-section {
+        flex-direction: column;
+    }
+
+    main .me-section ul {
+        width: 100%;
+        text-align: center;
+    }
+
+    main .me-section .image-box img {
+        /* width: 50%;
+        height:50%;
+     */
+        height: 150px;
+        width: 150px;
+    }
+
+    main .text-box li {
+        line-height: 30px;
+        padding-bottom: 10px;
+    }
+
+    footer.text-box {
+        padding-left: 0;
+        text-align: center;
+        border-radius: 50% 50% 50% 50%;
+    }
+
+    footer.contact-details {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-details.tags {
+        line-height: 30px;
+    }
+
+    .registration-details.tags {
+        line-height: 30px;
+    }
+}
+
+/*Responsiveness*/
+@media (max-width: 1100px) {
+    footer.contact-details {
+        flex-wrap: wrap;
+    }
+
+    .me-section {
+        flex-direction: column;
+    }
+
+    main .me-section ul {
+        width: 100%;
+        text-align: center;
+    }
+
+    main .me-section .image-box img {
+        width: 100%;
+    }
+
+    main .text-box li {
+        line-height: 30px;
+        padding-bottom: 10px;
+    }
+
+    .contact-details.tags {
+        line-height: 30px;
+    }
+
+    .registration-details.tags {
+        line-height: 30px;
+    }
+}
